@@ -115,10 +115,6 @@ margin-right: 76px;
 .header-span {
 color: var(--title-color);
 }
-.header-span:hover,
-.header-span:focus {
-color: #4D5AE5;
-}
 .header-list {
     display: flex;
     gap: 30px;
@@ -134,7 +130,7 @@ color: #2E2F42;
 text-decoration: none;
 }
 .header-link:hover{
-color: var(--primary-text-color );
+color: #4D5AE5;
 }
 .header-link:focus {
 color: #4D5AE5;
@@ -332,6 +328,7 @@ margin-bottom: 72px;
     background: #FFFFFF;
     text-align: center;
     box-shadow: var(--box-shadow-team);
+    border-radius: 0px 0px 4px 4px;
 }
 .team-item-title {
 margin-bottom: 8px;
@@ -477,7 +474,10 @@ justify-content: center;
     background-color: #4d5ae5;
     opacity: 0;
 }
-.container-rofl:hover .portfolio-img::before{
+.portfolio-item:hover .portfolio-img::before{
+    opacity: 1;
+}
+.portfolio-item:focus .portfolio-img::before{
     opacity: 1;
 }
 .container-rofl:hover,
@@ -545,10 +545,6 @@ text-transform: uppercase;
 color: #4D5AE5;
 text-decoration: none;
 margin-bottom: 16px;
-}
-.footer-span:hover,
-.footer-span:focus {
-    color: #4D5AE5;
 }
 .footer-span{
 color: #F4F4FD; 
