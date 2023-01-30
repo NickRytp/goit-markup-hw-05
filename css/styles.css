@@ -134,6 +134,9 @@ color: var(--title-color);
     text-decoration: none;
     transition: color var(--timing-function);
 }
+.header-link.current{
+    color: #4D5AE5;
+}
 .header-link:hover,
 .header-link:focus {
 color: #4D5AE5;
